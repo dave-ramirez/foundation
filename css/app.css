@@ -1,0 +1,180 @@
+body {
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bree Serif', serif;
+}
+
+.social-container {
+  background: #1c3643;
+}
+
+.logo-container .callout {
+  background-color: #ee3f54;
+  margin-bottom: 0;
+  color: white;
+}
+
+.menu-container{
+  background-color: #48a19d;
+}
+
+.menu-container li a{
+  color: white;
+  font-family: 'Bree Serif', serif;
+  text-transform: uppercase;
+
+}
+
+.menu-container li a:hover{
+  color: #f6e15f;
+}
+
+#sub-menu{
+  border: 0;
+}
+
+#sub-menu li a{
+  background-color: #48a19d;
+  color: white;
+}
+
+#sub-menu li a:hover{
+    color: #f6e15f;
+}
+
+#tickets-container .callout{
+  background: #5e7eb7;
+  color: white;
+  margin-bottom: 0;
+}
+
+#tickets-container .callout button{
+  color: white;
+  border: 1px solid white;
+}
+
+.tabs-title {
+  display: inline-block;
+  float: none;
+}
+
+#lineup-container{
+    padding: 1em 0;
+}
+
+#lineup-container,
+#lineup-container, .tabs-panel,
+#lineup-container, .tabs,
+#lineup-container, .tabs, .tabs-title
+#lineup-container, .tabs, .tabs-title.is-active a{
+
+  background-color: #9676af;
+  color: white;
+  border: 0;
+  font-family: 'Bree Serif', serif;
+  text-transform: uppercase;
+}
+
+.tabs-content{
+  border: 0;
+}
+
+#lineup-container, .tabs, .tabs-title a{
+  font-size: 18px;
+  color: #a7fffb;
+}
+
+#lineup-container, .tabs, .tabs-title a:hover{
+  background-color: #9676af;
+  color: white;
+}
+
+#lineup-container .orbit-container {
+  margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption {
+  text-align: right;
+}
+
+#boletos-container{
+  padding: 1em 0;
+  background-color: #f6e15f;
+  color: #161742;
+}
+
+.pricing-table{
+  border: 1px solid #161742;
+  font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li,
+.pricing-table li.description{
+  font-size: 20px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title{
+  font-size: 30px;
+}
+
+.pricing-table a.button{
+  font-family: 'Bree Serif', serif;
+}
+
+#info-container{
+  background-color: #161742;
+  color: white;
+  padding: 1em 0;
+}
+
+#info-container .info-map iframe{
+  width: 100%;
+}
+
+#suscripcion{
+  background-color: #ee3f54;
+  color: white;
+  padding: 1em 0;
+}
+
+#suscripcion h4 small {
+  color: #ffcddc;
+}
+
+#suscripcion input[type="submit"]{
+  font-family: 'Bree Serif', serif;
+}
+
+#suscripcion .error{
+  font-family: 'Bree Serif', serif;
+}
+
+.is-invalid-input:not(:focus){
+  background-color: rgb(255, 228, 228);
+  border-color: rgb(255, 228, 228);
+}
+
+.data-sticky{
+  width: 100%;
+  z-index: 10;
+  margin-top: 0;
+}
+
+#offCanvas,
+#offCanvas li a{
+  background-color: black;
+  color: white;
+  font-family: 'Bree Serif', serif;
+}
+
+#offCanvas .is-drilldown-submenu-parent > a::after{
+  border-color: transparent transparent transparent white;
+}
+
+#offCanvas .js-drilldown-back > a::before{
+  border-color: transparent white transparent transparent;
+
+}
